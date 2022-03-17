@@ -1,0 +1,75 @@
+*{
+    font-family: "Helvetica";
+    overflow-x: hidden;
+}
+
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 877px) {
+   .expozituraDiv{
+       flex-direction: column;
+       align-items: center;
+   }
+}
+
+.expozituraDiv,.autoDiv, .klijentDiv{
+    display: flex;
+    gap:30px;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.kontroleDiv{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+button{
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(51, 51, 51);
+    color:white
+}
+
+input,select{
+    border-radius: 15px;
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.kilometraza{
+    width:100px;
+}
+
+.autoDiv{
+    background-color: rgb(173, 172, 172);
+    width: 100%;
+}
+
+.kontroleAuto, .kontroleKlijent{
+    width:150px;
+}
+
+.kontroleDiv button{
+    height:27px
+}
+
+.klijentDiv{
+    background-color: rgb(81, 81, 90);
+    width: 100%;
+}
+
+.tabelaOkvirAuto{
+    padding-right: 30px;
+}
